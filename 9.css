@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(http://images2.fanpop.com/images/photos/3800000/Football-not-Soccer-soccer-3870961-1200-563.jpg);
+    background-size: cover;
+    top:50%;
+    left: 20%;
+    font-family: sans-serif;
+    float: left;
+}
+button{
+ border: none;
+    outline: none;
+    height: 40px;
+    background: blue;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    top: 50%;
+    right: 50%;
+    position: center;
+    transform: translate(200%,700%);
+
+	}
+	nav{
+
+
+		margin: 0 0 0 0;
+		width: 100%;
+		overflow: hidden;
+		padding: 0;
+		line-height: 1;
+	}
+    nav ul{
+    	list-style: none;
+    	width: 50%;
+    }
+    nav ul li{
+    	float: left;
+    	width: 20%;
+    }

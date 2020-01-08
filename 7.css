@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(https://wallpapercave.com/wp/5DMx8Xb.jpg);
+    background-size: cover;
+    top:50%;
+    left: 20%;
+    font-family: sans-serif;
+    float: left;
+}
+
+.loginbox{
+    width: 360px;
+    height: 460px;
+    background: black;
+    color: #fff;
+    top: 50%;
+    right: 0%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[id="phonenum"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: blue;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.loginbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: blue;
+    color: #000;
+}
+.loginbox a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+    color: grey;
+}
+
+.loginbox a:hover
+{
+    color: red;
+}
